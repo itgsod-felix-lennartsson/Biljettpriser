@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 def priskoll(age):
     age = int(age)   # Omvandlar input str till int
     if age in range(18,65): # Returnerar 20 kr i biljettpris då användare är mellan 18-64 år gammal.
